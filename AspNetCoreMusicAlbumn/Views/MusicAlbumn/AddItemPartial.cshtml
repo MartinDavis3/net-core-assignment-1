@@ -1,0 +1,14 @@
+﻿@model MusicAlbumnItem
+    <form asp-action="AddItem" method="POST">
+        <h2>Add a new item:</h2>
+        <label asp-for="Title">Title</label>
+        <input asp-for="Title">
+        <label asp-for="Artist">Artist</label>
+        <input asp-for="Artist">
+        <label asp-for="Year">Year</label>
+        <input asp-for="Year">
+        <label asp-for="NumberOfTracks">#Tracks</label>
+        <input asp-for="NumberOfTracks">
+        <button type="submit">Add</button>
+    </form>
+
