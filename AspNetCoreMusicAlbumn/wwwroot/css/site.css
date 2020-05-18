@@ -73,3 +73,25 @@ body {
 div.music-collection-panel {
     margin-top: 15px;
 }
+
+thead td {
+    font-weight: bold;
+}
+
+#Artist {
+    width: 170px;
+}
+
+#Year {
+    width: 80px;
+}
+
+#NumberOfTracks {
+    width: 50px;
+}
+
+#Genre {
+    width: 120px;
+}
+
+
