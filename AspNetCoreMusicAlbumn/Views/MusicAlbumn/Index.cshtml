@@ -24,6 +24,6 @@
         }
     </table>
     <div class="panel-footer add-item-form">
-        <!-- MusicAlbumn: Add item form -->
+        @await Html.PartialAsync("AddItemPartial", new MusicAlbumnItem())
     </div>
 </div>
