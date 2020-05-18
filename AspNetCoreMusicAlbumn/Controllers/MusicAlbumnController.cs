@@ -20,7 +20,6 @@ namespace AspNetCoreMusicAlbumn.Controllers
         {
             var items = await _musicAlbumnItemService.GetAllItemsAsync();
 
-            //Have not yet written the ViewModel, so will see an error here.
             var model = new MusicAlbumnViewModel()
             {
                 Items = items

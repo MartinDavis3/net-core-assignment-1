@@ -74,9 +74,13 @@ div.music-collection-panel {
     margin-top: 15px;
 }
 
+/* Styling form table heading */
+
 thead td {
     font-weight: bold;
 }
+
+/* Sizeing of input boxes */
 
 #Artist {
     width: 170px;
