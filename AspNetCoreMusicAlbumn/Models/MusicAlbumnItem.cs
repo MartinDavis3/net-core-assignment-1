@@ -16,5 +16,7 @@ namespace AspNetCoreMusicAlbumn.Models
 
         public int? NumberOfTracks { get; set; }
 
+        public string Genre { get; set; }
+
     }
 }

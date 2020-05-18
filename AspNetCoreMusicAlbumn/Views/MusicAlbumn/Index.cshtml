@@ -11,6 +11,7 @@
                 <td>Artist</td>
                 <td>Year</td>
                 <td>#Tracks</td>
+                <td>Genre</td>
             </tr>
         </thead>
         @foreach (var item in Model.Items)
@@ -20,6 +21,7 @@
                 <td>@item.Artist</td>
                 <td>@item.Year</td>
                 <td>@item.NumberOfTracks</td>
+                <td>@item.Genre</td>
             </tr>
         }
     </table>
